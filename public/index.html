@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cafe Sorter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="header-title">Cafe Sorter</h1>
+  </header>
+
+  <div class="light-container">
+    <div class="filters">
+      <label for="wifi">Wi-Fi Available:</label>
+      <input type="checkbox" id="wifi">
+
+      <label for="powerOutlets">Power Outlets Available:</label>
+      <input type="checkbox" id="powerOutlets">
+
+      <label for="vibes">Select Vibes:</label>
+      <select id="vibes">
+        <option value="">All</option>
+        <option value="French">French</option>
+        <option value="Modern">Modern</option>
+        <option value="Cozy">Cozy</option>
+        <option value="Trendy">Trendy</option>
+        <option value="Grunge">Grunge</option>
+        <option value="Korean">Korean</option>
+        <option value="Chic">Chic</option>
+        <option value="Classy">Classy</option>
+        <option value="Japanese">Japanese</option>
+      </select>
+      
+      <button onclick="sortCafes()">Sort Cafes</button>
+    </div>
+  </div>
+  <div class="light-container">
+  <ul id="cafeList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

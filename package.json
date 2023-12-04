@@ -1,7 +1,6 @@
 {
   "name": "cafeapi",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +9,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
-  }
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grassepark/cafes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/grassepark/cafes/issues"
+  },
+  "homepage": "https://github.com/grassepark/cafes#readme",
+  "description": ""
 }

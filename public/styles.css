@@ -1,0 +1,72 @@
+
+body {
+  font-family: 'Arial', sans-serif; 
+  background-color: #B4E1FB;
+  padding: 10px;
+}
+.header {
+    background-color: #69BEFB;
+    padding: 20px;
+    text-align: center;
+    border-radius:30px;
+  }
+  
+  .header-title {
+    color: white;
+    margin: 0;
+  }
+  
+  .light-container {
+    background-color: #F6FEFF;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius:30px;
+  }
+  
+  .filters {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .filters label,
+  .filters input,
+  .filters select {
+    background-color: #F6FEFF;
+    color: #073149;
+    padding: 5px;
+    border-radius: 5px;
+    border-color:#073149;
+  }
+
+  .filters button {
+    background-color: #073149;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border:none;
+  }
+  
+  /* Cafe list styles */
+  #cafeList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #cafeList li {
+    margin-bottom: 10px;
+    color: #073149;
+  }
+  
+  #cafeList h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #073149;
+  }
+  
+  #cafeList p {
+    font-size: 16px;
+    margin: 0;
+  }
+  
